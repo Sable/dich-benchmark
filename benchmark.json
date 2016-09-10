@@ -1,0 +1,17 @@
+{
+   "type": "benchmark",
+   "name":"Dirichlet solution",
+   "short-name":"dirich",
+   "description":"Compute the Dirichlet solution to Laplace's equation",
+   "version":"1.0.0",
+   "input-size":{
+      "small":1,
+      "medium":5,
+      "large": 10
+   },
+   "expected-output": {
+      "small": 16700,
+      "medium": 16700,
+      "large": 16700
+   }
+}
